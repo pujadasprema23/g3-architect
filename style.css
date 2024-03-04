@@ -60,3 +60,29 @@ header{
 .img-container{
     margin-top: 50px;
 }
+/* list styles */
+.list-img-container{
+    display: grid;
+    grid-template-columns: repeat(2,350px);
+    gap: 10px;
+    width: 200px;
+    margin-top: 40px;
+}
+.list-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 70px;
+    /* margin: 0 auto; */
+}
+.list-title{
+    font-size: 50px;
+    margin-bottom: 5px;
+}
+.first{
+    color: rgb(124, 124, 124);
+    font-weight: 100;
+}
+.second{
+    color: orange;
+}
